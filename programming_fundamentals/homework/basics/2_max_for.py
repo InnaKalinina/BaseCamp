@@ -17,6 +17,8 @@ maximum = 0
 # Save maximum value from `data` list into `maximum` variable.
 # ADD YOUR CODE HERE.
 
+for i in range(len(data)):
+    maximum = max(data[i], maximum)
 
 # DON'T MODIFY THESE LINES.
 assert maximum == max(data), message
