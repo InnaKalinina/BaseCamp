@@ -52,7 +52,7 @@ def binary_to_decimal(n):
     return decimal
 
 
-def storage(data_storage=[]):
+def storage(inputParam=None):
 
     # Your function should return list with added `data` value
     # into passed list into function or just `data` value in empty list.
@@ -63,7 +63,9 @@ def storage(data_storage=[]):
 
     # Change parameters in function for needed.
     # Also you is able to add some additional code here if needed.
-
+    data_storage = []
+    if inputParam:
+        data_storage.append(inputParam)
     # DON'T MODIFY THESE LINES.
     data_storage.append("data")
     return data_storage
