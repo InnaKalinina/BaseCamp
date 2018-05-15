@@ -83,5 +83,5 @@ def handle_exceptions(user_number):
             return 'Yey! My number is higher!'
         else:
             return 'Wow! My number is lower.'
-    except (TypeError, NameError, IndentationError, SyntaxError) as e:
-        print(e)
+    except TypeError:
+        return 'Wow! My number is lower.'
