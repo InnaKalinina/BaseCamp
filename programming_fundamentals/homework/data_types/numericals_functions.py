@@ -79,7 +79,7 @@ def handle_exceptions(user_number):
 
     # ADD YOUR CODE HERE.
     try:
-        if int(user_number) > TEST_NUMBER:
+        if user_number > TEST_NUMBER:
             return 'Yey! My number is higher!'
         else:
             return 'Wow! My number is lower.'
